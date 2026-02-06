@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Connect | Jared Makambi</title>
+    <link rel="stylesheet" href="homepage.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="homepage.html">Home</a></li>
+            <li><a href="childhood.html">Childhood</a></li>
+            <li><a href="education.html">Education</a></li>
+            <li><a href="skills.html">Skills</a></li>
+            <li><a href="future.html">Vision</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main class="content">
+        <div class="card">
+            <h2>Let's Build Something Together</h2>
+            <p>I am always open to discussing software projects, AI research, or partnership opportunities.</p>
+            
+            <div class="contact-links">
+                <p>📧 <strong>Email:</strong> <a href="mailto:jaredmakambi06@gmail.com" style="color: var(--primary);">jaredmakambi06@gmail.com</a></p>
+                <p>📞 <strong>Phone:</strong> <a href="tel:+254768829332" style="color: var(--primary);">0768829332</a></p>
+                <p>📸 <strong>Instagram:</strong> <a href="https://instagram.com/jerado_stings" target="_blank" style="color: var(--primary);">@jerado_stings</a></p>
+                <p>🌐 <strong>Facebook:</strong> <a href="https://facebook.com/jeradostings" target="_blank" style="color: var(--primary);">Jerado Stings</a></p>
+            </div>
+        </div>
+
+        <form id="contactForm" class="card">
+            <h3>Quick Message</h3>
+            <input type="text" id="name" placeholder="Full Name" style="width:100%; padding:10px; margin-bottom:10px; background:#0f172a; color:white; border:1px solid #334155;">
+            <input type="email" id="email" placeholder="Your Email" style="width:100%; padding:10px; margin-bottom:10px; background:#0f172a; color:white; border:1px solid #334155;">
+            <textarea id="message" placeholder="Your Message" style="width:100%; padding:10px; margin-bottom:10px; height:100px; background:#0f172a; color:white; border:1px solid #334155;"></textarea>
+            <button type="button" onclick="validateForm()" style="background:var(--primary); padding:10px 20px; border:none; border-radius:5px; cursor:pointer; font-weight:bold; width:100%;">SEND MESSAGE</button>
+        </form>
+    </main>
+
+    <script src="homepage.js"></script>
+</body>
+</html>
